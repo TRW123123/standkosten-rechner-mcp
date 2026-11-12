@@ -5,3 +5,4 @@
 - Kennzahlen live geprüft am 12.11.2026 (DAT Barometer Juni 2026; kfz-betrieb 27.11.2024).
 - Streamable-HTTP-JSON-RPC nach dem Muster von car-listing-check (CORS, Rate-Limit, Body-Limit, Notifications).
 - Vitest-Tests für Rechnung, Grenzwerte, Schema und Worker; lokaler Wrangler-Smoke.
+- Netlify-Function-Adapter und öffentliche Preview unter https://standkosten-rechner-mcp.netlify.app/mcp (kostenloser Plan).

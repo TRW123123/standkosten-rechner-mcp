@@ -10,6 +10,8 @@ Remote-MCP-Server für Autohäuser im DACH-Raum: rechnet aus Bestand, durchschni
 
 ## Status
 
+**Öffentliche Preview (kostenlos, Netlify Function, gleicher Code):** `https://standkosten-rechner-mcp.netlify.app/mcp` – am 12.11.2026 per curl geprüft (health, initialize, tools/list, tools/call positiv und negativ). Adapter: `netlify/functions/mcp.ts`.
+
 Version 0.1.0, gebaut und getestet am 12.11.2026. Lokal mit `wrangler dev` geprüft. **Noch kein Production-Deploy**: die in `server.json` eingetragene URL `https://mcp.autohaus-video.de/mcp` ist ein Vorschlag und erst nach Cloudflare-Login und Safaks OK erreichbar.
 
 ## Tools
