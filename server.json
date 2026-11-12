@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "de.autohaus-video/standkosten-rechner",
+  "title": "Standkosten-Rechner",
+  "description": "Berechnet Standkosten von Gebrauchtwagen im Autohaus aus Bestand, Standtagen und Kosten pro Tag, mit datierten DAT-Vergleichswerten.",
+  "version": "0.1.0",
+  "websiteUrl": "https://autohaus-video.de",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.autohaus-video.de/mcp"
+    }
+  ]
+}
